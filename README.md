@@ -1,3 +1,24 @@
+## <p style="text-align:center;">Tela Inicial</p>
+![Tela Inicial](https://i.imgur.com/Ex0namq.png)
+<br />
+<br />
+
+## <p style="text-align:center;">Busca por nome</p>
+![Busca por nome](https://i.imgur.com/4Dtp07t.png)
+<br />
+<br />
+
+## <p style="text-align:center;">Busca por CNPJ</p>
+![Busca por CNPJ](https://i.imgur.com/HmBri7m.png)
+<br />
+<br />
+
+## <p style="text-align:center;">Exibir todas as empresas</p>
+![Todas as empresas](https://i.imgur.com/YqzEOZW.png)
+<br />
+<br />
+
+
 # 🚀 Como Rodar o Backend  
 
 ## Pré-requisitos  
