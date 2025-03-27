@@ -9,7 +9,7 @@
     </div>
 
     <div class="card">
-      <SearchBox
+      <SearchBoxName
         placeholder="Digite o nome da empresa..."
         v-model="searchTerm"
         @search="searchCompanies"
@@ -24,14 +24,14 @@
 
 <script>
 import { ref } from "vue";
-import SearchBox from "@/components/SearchBox.vue";
+import SearchBoxName from "@/components/SearchBoxName.vue";
 import CompanyTable from "@/components/CompanyTable.vue";
 import axios from "axios";
 
 export default {
   name: "SearchByNameView",
   components: {
-    SearchBox,
+    SearchBoxName,
     CompanyTable,
   },
   setup() {

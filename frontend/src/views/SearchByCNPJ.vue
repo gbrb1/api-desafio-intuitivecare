@@ -9,7 +9,7 @@
     </div>
 
     <div class="card">
-      <SearchBox
+      <SearchBoxCnpj
         placeholder="Digite o CNPJ da empresa... (apenas números)"
         v-model="searchTerm"
         @search="searchCompanies"
@@ -24,14 +24,14 @@
 
 <script>
 import { ref } from "vue";
-import SearchBox from "@/components/SearchBox.vue";
+import SearchBoxCnpj from "@/components/SearchBoxCnpj.vue";
 import CompanyTable from "@/components/CompanyTable.vue";
 import axios from "axios";
 
 export default {
   name: "SearchByCNPJView",
   components: {
-    SearchBox,
+    SearchBoxCnpj,
     CompanyTable,
   },
   setup() {
