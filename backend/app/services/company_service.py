@@ -2,6 +2,8 @@ from sqlalchemy.orm import Session
 from app.repositories.company_repo import get_companies_by_name, get_all_companies, get_by_cnpj as get_cnpj
 
 def search_companies(db: Session, name: str):
+    if not name:
+        return []
     try:
         return get_companies_by_name(db, name)
     except Exception as e:
